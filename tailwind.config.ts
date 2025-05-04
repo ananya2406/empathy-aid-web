@@ -64,14 +64,15 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				relief: {
-					'blue': '#0EA5E9',
-					'blue-light': '#38bdf8',
-					'blue-dark': '#0369a1',
-					'teal': '#14b8a6',
-					'teal-light': '#5eead4',
-					'teal-dark': '#0d9488',
-					'gray': '#1A1F2C',
-					'gray-light': '#F1F0FB',
+					// Updated warmer color palette
+					'primary': '#FF6B35', // Warm orange (primary action color)
+					'primary-light': '#FF9F6B',
+					'primary-dark': '#E54B00',
+					'secondary': '#7A9E7E', // Earthy green
+					'secondary-light': '#A5C1A7',
+					'secondary-dark': '#557659',
+					'gray': '#343E3D', // Dark gray (for text)
+					'gray-light': '#F8F7F3', // Light cream (for backgrounds)
 					'white': '#FFFFFF'
 				}
 			},
@@ -109,12 +110,21 @@ export default {
 						opacity: '1',
 						transform: 'translateY(0)'
 					}
+				},
+				'float': {
+					'0%, 100%': {
+						transform: 'translateY(0)'
+					},
+					'50%': {
+						transform: 'translateY(-10px)'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
-				'fade-in': 'fade-in 0.5s ease-out'
+				'fade-in': 'fade-in 0.5s ease-out',
+				'float': 'float 3s ease-in-out infinite'
 			}
 		}
 	},

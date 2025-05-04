@@ -10,13 +10,16 @@ interface StatsCardProps {
 
 const StatsCard = ({ title, value, icon, className }: StatsCardProps) => {
   return (
-    <div className={cn("bg-white rounded-xl shadow-md p-6 flex items-center", className)}>
-      <div className="bg-relief-blue/10 p-3 rounded-lg mr-4">
+    <div className={cn(
+      "bg-white rounded-xl shadow-md p-6 flex items-center transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1 animate-fade-in", 
+      className
+    )}>
+      <div className="bg-relief-primary/10 p-3 rounded-lg mr-4">
         {icon}
       </div>
       <div>
         <h3 className="text-sm font-medium text-gray-500">{title}</h3>
-        <p className="text-2xl font-bold text-gray-900">{value}</p>
+        <p className="text-2xl font-bold text-relief-gray">{value}</p>
       </div>
     </div>
   );
