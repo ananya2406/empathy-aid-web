@@ -64,18 +64,18 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				relief: {
-					// New earthy color palette
-					'primary': '#777E5C', // Olive green
-					'primary-light': '#90967A', // Lighter olive
-					'primary-dark': '#283106', // Dark olive
-					'secondary': '#283106', // Dark forest green
-					'secondary-light': '#3D4C09', // Slightly lighter forest green
-					'secondary-dark': '#1A2004', // Darker forest green
-					'gray': '#283106', // Dark forest green for text
-					'gray-light': '#DFE0DB', // Light gray-white (for backgrounds)
-					'accent': '#C7C2AC', // Beige accent
+					// New blue color palette
+					'primary': '#052659', // Navy Blue
+					'primary-light': '#5483B3', // Medium Blue
+					'primary-dark': '#021024', // Dark Navy
+					'secondary': '#021024', // Dark Navy
+					'secondary-light': '#052659', // Navy Blue
+					'secondary-dark': '#010A14', // Darker Navy
+					'gray': '#021024', // Dark Navy for text
+					'gray-light': '#C1E8FF', // Very Light Blue (for backgrounds)
+					'accent': '#7DA0CA', // Light Blue
 					'white': '#FFFFFF',
-					'cream': '#D2D8BE' // Light olive cream
+					'cream': '#C1E8FF' // Light Blue (similar to cream in the original)
 				}
 			},
 			fontFamily: {
