@@ -16,8 +16,8 @@ const Image = ({ alt, className, src }: ImageProps) => {
 
   if (!src || hasError) {
     return (
-      <div className={`bg-gray-200 flex items-center justify-center ${className || 'h-64'}`}>
-        <span className="text-gray-400 text-sm">{alt || 'Image placeholder'}</span>
+      <div className={`bg-relief-gray-light/40 flex items-center justify-center ${className || 'h-64'}`}>
+        <span className="text-relief-secondary text-sm">{alt || 'Image placeholder'}</span>
       </div>
     );
   }

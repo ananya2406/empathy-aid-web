@@ -64,15 +64,16 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				relief: {
-					// Updated warmer color palette
-					'primary': '#FF6B35', // Warm orange (primary action color)
-					'primary-light': '#FF9F6B',
-					'primary-dark': '#E54B00',
-					'secondary': '#7A9E7E', // Earthy green
-					'secondary-light': '#A5C1A7',
-					'secondary-dark': '#557659',
-					'gray': '#343E3D', // Dark gray (for text)
-					'gray-light': '#F8F7F3', // Light cream (for backgrounds)
+					// New earthy color palette
+					'primary': '#82401E', // Rich brown
+					'primary-light': '#A05426', // Lighter brown
+					'primary-dark': '#6A3419', // Darker brown
+					'secondary': '#45575B', // Slate blue-gray
+					'secondary-light': '#5A7076', // Lighter slate
+					'secondary-dark': '#14252C', // Dark slate (almost black)
+					'gray': '#14252C', // Dark slate for text
+					'gray-light': '#E6CAB4', // Light cream/tan (for backgrounds)
+					'accent': '#A3A39B', // Neutral gray
 					'white': '#FFFFFF'
 				}
 			},
@@ -130,3 +131,4 @@ export default {
 	},
 	plugins: [require("tailwindcss-animate")],
 } satisfies Config;
+
