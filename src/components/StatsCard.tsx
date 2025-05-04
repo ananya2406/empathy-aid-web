@@ -11,7 +11,7 @@ interface StatsCardProps {
 const StatsCard = ({ title, value, icon, className }: StatsCardProps) => {
   return (
     <div className={cn(
-      "bg-white rounded-xl shadow-md p-6 flex items-center transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1 animate-fade-in border border-relief-gray-light/30", 
+      "bg-white rounded-xl shadow-md p-6 flex items-center transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1 animate-fade-in border border-relief-cream/50", 
       className
     )}>
       <div className="bg-relief-primary/10 p-3 rounded-lg mr-4">

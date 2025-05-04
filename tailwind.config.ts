@@ -65,16 +65,17 @@ export default {
 				},
 				relief: {
 					// New earthy color palette
-					'primary': '#82401E', // Rich brown
-					'primary-light': '#A05426', // Lighter brown
-					'primary-dark': '#6A3419', // Darker brown
-					'secondary': '#45575B', // Slate blue-gray
-					'secondary-light': '#5A7076', // Lighter slate
-					'secondary-dark': '#14252C', // Dark slate (almost black)
-					'gray': '#14252C', // Dark slate for text
-					'gray-light': '#E6CAB4', // Light cream/tan (for backgrounds)
-					'accent': '#A3A39B', // Neutral gray
-					'white': '#FFFFFF'
+					'primary': '#777E5C', // Olive green
+					'primary-light': '#90967A', // Lighter olive
+					'primary-dark': '#283106', // Dark olive
+					'secondary': '#283106', // Dark forest green
+					'secondary-light': '#3D4C09', // Slightly lighter forest green
+					'secondary-dark': '#1A2004', // Darker forest green
+					'gray': '#283106', // Dark forest green for text
+					'gray-light': '#DFE0DB', // Light gray-white (for backgrounds)
+					'accent': '#C7C2AC', // Beige accent
+					'white': '#FFFFFF',
+					'cream': '#D2D8BE' // Light olive cream
 				}
 			},
 			fontFamily: {
@@ -131,4 +132,3 @@ export default {
 	},
 	plugins: [require("tailwindcss-animate")],
 } satisfies Config;
-
